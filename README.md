@@ -12,7 +12,7 @@ Built at [Cursor Hackathon Prague: Forge the Stack](https://luma.com/cursor-mljb
 
 ## Start here: set up your own Déjà Vu
 
-**[Read the setup guide](docs/grok-bot.md).** It covers Pocket recordings, the Notion CRM, and the bot instructions.
+**[Read the setup guide](docs/grok-bot.md).** Start with the [first-run checklist](docs/grok-bot.md#first-run-with-your-agent), then use the bot instructions to process one Pocket recording into Notion.
 
 Give your agent this prompt:
 
