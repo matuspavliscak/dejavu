@@ -1,12 +1,12 @@
 # Déjà Vu
 
-Read `README.md` first. Notion is the personal CRM interface; this repository hosts the landing page and the planned agent setup guides.
+Read `README.md`, then follow [docs/grok-bot.md](docs/grok-bot.md) for personal CRM setup. Notion is the interface and Pocket supplies the recordings.
 
 ## Helping someone set up Déjà Vu
 
-The product is intended to be set up by an agent following Markdown guides, without the user writing code. Check the setup status in `README.md` and use the reviewed Markdown guides when they are available. Do not treat the landing page's build or deployment commands as product setup instructions.
+The product is intended to be set up by an agent following Markdown guides, without the user writing code. Use [docs/grok-bot.md](docs/grok-bot.md) as the setup entry point. Do not treat the landing page's build or deployment commands as product setup instructions.
 
-When guides are added, follow them, identify prerequisites, and verify the documented outcome. Report missing instructions or failed steps. Do not invent an installation process or claim setup works without trying it.
+Follow the guide, identify missing prerequisites, and verify one recording creates a dated entry on the correct Notion page while preserving previous entries. Report missing instructions or failed steps. Do not invent an installation process or claim setup works without trying it.
 
 ## Repository changes
 

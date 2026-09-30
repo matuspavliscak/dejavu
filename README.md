@@ -10,6 +10,18 @@ Déjà Vu is a personal CRM for the people you meet at hackathons, conferences, 
 
 Built at [Cursor Hackathon Prague: Forge the Stack](https://luma.com/cursor-mljb).
 
+## Start here: set up your own Déjà Vu
+
+**[Read the setup guide](docs/grok-bot.md).** It covers Pocket recordings, the Notion CRM, and the bot instructions.
+
+Give your agent this prompt:
+
+> Read https://github.com/matuspavliscak/dejavu, then follow the setup guide linked in the README. Help me connect Pocket and Notion and set up my personal CRM. Ask for any missing access or configuration. Process one recording and verify that a dated entry appears on the right person's Notion page without removing earlier notes.
+
+You need the bot described in the guide, a Notion CRM database, Pocket recordings, and the Notion and Pocket connectors. The intended flow does not require you to write code. Start with one recording before enabling the optional recurring checks.
+
+Agents: begin with [AGENTS.md](AGENTS.md), then follow [docs/grok-bot.md](docs/grok-bot.md). Website development commands are in [Landing page](#landing-page).
+
 ## Current demo
 
 Pocket records a conversation. The agent adds the new details as a dated entry on the person's existing Notion page, preserving earlier meeting notes. The demo shows the contact table, a person's page, and the new entry after a recording.
@@ -52,18 +64,6 @@ The site lives in `site/`. Run `npm ci` and `npm run dev` to preview it locally.
 `npm run build` produces `dist/` with the page and its bundled brand assets. `npm run deploy` builds and publishes it to the production Cloudflare Pages project `dejavu-blue`. Authenticate with `npx wrangler login` first.
 
 The site uses Cloudflare Pages Direct Upload. Upload `dist/` through the dashboard or run the deploy command above. The custom domain [dejavu.blue](https://dejavu.blue) is managed in the project's Custom domains settings. Pull requests do not deploy automatically.
-
-## Set up your own Déjà Vu
-
-The intended setup is agent-led: give your agent this repository URL and have it follow the Markdown guides. You should not need to write code to get started.
-
-**Setup guides are coming soon.** Katka will add them in a pull request. We'll review the instructions and try them from scratch before marking setup ready.
-
-When the guides are ready, tell your agent:
-
-> Read https://github.com/matuspavliscak/dejavu and help me set up my own Déjà Vu. Follow the setup guides, tell me what accounts or devices I need, and verify that it works. Report any missing instruction or failed step.
-
-The commands in the Landing page section maintain the website. Personal Déjà Vu setup will have its own guide.
 
 ## Status
 
