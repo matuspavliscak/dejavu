@@ -5,8 +5,8 @@ Recycle this setup: a Grok Bot that turns meeting recordings into a Personal CRM
 ## What you need
 
 1. **Grok Bot** (Cursor)
-2. **Notion** — a Personal CRM database (Name, LinkedIn, Notes; page body used as diary)
-3. **Pocket** (or similar) — recordings of conversations
+2. **Notion**: a Personal CRM database (Name, LinkedIn, Notes; page body used as diary)
+3. **Pocket** (or similar): recordings of conversations
 4. Connectors: Notion + Pocket on the bot
 
 ## Notion CRM shape
@@ -41,4 +41,4 @@ Weekday half-hourly check: new Pocket items → CRM update (same rules).
 
 First meeting → contact card. Meet again → remember who they are. Later → search people and draft a follow-up.
 
-See the root README for the full Déjà Vu product vision.
+See the [root README](../README.md) for the full Déjà Vu product vision.
