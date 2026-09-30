@@ -1,0 +1,16 @@
+{
+  "name": "dejavu-landing",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "npm run build && wrangler pages dev dist",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name=dejavu-blue --branch=main"
+  },
+  "devDependencies": {
+    "wrangler": "4.145.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

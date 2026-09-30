@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="brand/logos/dejavu-primary-on-ivory.png" alt="Déjà Vu" width="720">
+  <img src="brand/logos/dejavu-primary.png" alt="Déjà Vu" width="720">
 </p>
 
 <p align="center"><strong>You've met before. Now you'll remember.</strong></p>
@@ -41,6 +41,18 @@ Déjà Vu is designed to help you:
 
 Open `brand/index.html` in a browser to view the library. The fonts and assets are bundled for offline use.
 
+## Landing page
+
+The site lives in `site/`. Run `npm ci` and `npm run dev` to preview it locally.
+
+`npm run build` produces `dist/` with the page and its bundled brand assets. `npm run deploy` builds and publishes it to the production Cloudflare Pages project `dejavu-blue`. Authenticate with `npx wrangler login` first.
+
+The site uses Cloudflare Pages Direct Upload. Upload `dist/` through the dashboard or run the deploy command above. The custom domain [dejavu.blue](https://dejavu.blue) is managed in the project's Custom domains settings. Pull requests do not deploy automatically.
+
+## Set up your own Déjà Vu
+
+Setup guides are coming to this repository. The landing page links here so visitors can find them when they are added.
+
 ## Status
 
-Hackathon project in progress. This first contribution contains the project overview and brand library; the product flow above describes the intended demo.
+Hackathon project in progress. The landing page contains an interactive sample story. Smart glasses capture, contact search, and message sending describe the intended product; the website does not record conversations or send messages.
