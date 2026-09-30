@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#245FEA">
+  <title>Déjà Vu — Brand library</title>
+  <link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="guide.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar wrap">
+    <a class="brand" href="#main" aria-label="Déjà Vu brand library"><img src="logos/dejavu-primary.svg" alt="Déjà Vu" width="148" height="44"></a>
+    <span class="edition">Brand library <span class="dot"></span> 01</span>
+    <a class="top-link" href="README.md">Usage guide ↗</a>
+  </header>
+  <main id="main">
+    <section class="hero wrap">
+      <div class="eyebrow">A personal CRM for the people you meet</div>
+      <h1>You've met before.<br><span>Now you'll remember.</span></h1>
+      <div class="hero-bottom"><p>A little context. A familiar face.<br>A conversation picked up again.</p><span class="pill">Déjà Vu / Visual identity</span></div>
+    </section>
+    <section class="identity-stage" aria-label="Primary logo">
+      <img src="logos/dejavu-primary.svg" alt="Déjà Vu blue echo symbol and charcoal wordmark" width="1100" height="326">
+      <span>The same shape, seen again.</span>
+    </section>
+    <div class="wrap">
+      <section class="section" id="logos">
+        <div class="section-heading"><div><div class="eyebrow">01 / The signature</div><h2>Made to be remembered.</h2></div><p>Two returning curves. One familiar name.<br>Keep their shape and spacing together.</p></div>
+        <div class="logo-grid">
+          <article class="asset-card"><div class="asset-stage light"><img src="logos/dejavu-primary.svg" alt="Primary logo" loading="lazy"></div><div class="asset-caption"><span>Primary / Light surfaces</span><div><a href="logos/dejavu-primary.svg" download>SVG ↓</a><a href="logos/dejavu-primary.png" download>PNG ↓</a></div></div></article>
+          <article class="asset-card"><div class="asset-stage dark"><img src="logos/dejavu-reverse.svg" alt="Sky and ivory logo on ink" loading="lazy"></div><div class="asset-caption"><span>Reverse / Dark surfaces</span><div><a href="logos/dejavu-reverse.svg" download>SVG ↓</a><a href="logos/dejavu-reverse.png" download>PNG ↓</a></div></div></article>
+          <article class="asset-card"><div class="asset-stage white"><img src="logos/dejavu-ink.svg" alt="One-color ink logo" loading="lazy"></div><div class="asset-caption"><span>One color / Ink</span><div><a href="logos/dejavu-ink.svg" download>SVG ↓</a><a href="logos/dejavu-ink.png" download>PNG ↓</a></div></div></article>
+          <article class="asset-card"><div class="asset-stage blue"><img src="logos/dejavu-ivory.svg" alt="One-color ivory logo on blue" loading="lazy"></div><div class="asset-caption"><span>One color / Ivory</span><div><a href="logos/dejavu-ivory.svg" download>SVG ↓</a><a href="logos/dejavu-ivory.png" download>PNG ↓</a></div></div></article>
+        </div>
+        <div class="icon-row"><div><h3>A small reminder.</h3><p>Use the symbol for app icons, avatars, and compact UI.</p><a href="icons/app-icon.png" download>Download app icon ↓</a></div><div class="icon-examples"><img class="app-icon" src="icons/app-icon.png" alt="Ivory symbol on blue" width="112" height="112" loading="lazy"><img class="app-icon" src="icons/app-icon-dark.png" alt="Sky symbol on ink" width="80" height="80" loading="lazy"><img src="logos/dejavu-mark-blue.svg" alt="Blue symbol" width="48" height="48" loading="lazy"><img src="icons/icon-32.png" alt="32-pixel favicon" width="32" height="32" loading="lazy"></div></div>
+      </section>
+
+      <section class="section" id="color">
+        <div class="section-heading"><div><div class="eyebrow">02 / Color</div><h2>A spark of recognition.</h2></div><p>Blue gives the mark its voice.<br>Ivory and ink give it room.</p></div>
+        <p class="hint">Select a swatch to copy its hex value.</p>
+        <div class="swatches">
+          <button class="swatch swatch-blue" type="button" data-hex="#245FEA" aria-label="Copy Blue, #245FEA"><span>Blue</span><code>#245FEA</code></button>
+          <button class="swatch swatch-ink" type="button" data-hex="#1C2225" aria-label="Copy Ink, #1C2225"><span>Ink</span><code>#1C2225</code></button>
+          <button class="swatch swatch-ivory" type="button" data-hex="#FCF9F1" aria-label="Copy Ivory, #FCF9F1"><span>Ivory</span><code>#FCF9F1</code></button>
+          <button class="swatch swatch-sky" type="button" data-hex="#A9C4FF" aria-label="Copy Sky, #A9C4FF"><span>Sky</span><code>#A9C4FF</code></button>
+        </div>
+        <p class="copy-status" role="status" aria-live="polite" id="copy-status"></p>
+        <div class="contrast-row"><span><b>Ink / Ivory</b> <span data-contrast="ink,ivory"></span></span><span><b>Ivory / Blue</b> <span data-contrast="ivory,blue"></span></span><span><b>Sky / Ink</b> <span data-contrast="sky,ink"></span></span></div>
+        <p class="hint">These text pairs meet a 4.5:1 contrast ratio. Use ivory labels on blue buttons.</p>
+      </section>
+
+      <section class="section" id="type">
+        <div class="section-heading"><div><div class="eyebrow">03 / Typography</div><h2>Clear words. Human details.</h2></div><a href="fonts/manrope-variable.ttf" download>Download Manrope ↓</a></div>
+        <div class="type-grid"><div class="type-specimen"><div class="giant-type">Aa</div><div class="type-name">Manrope <span>400 / 600 / 700</span></div><p class="glyphs">Déjà Vu · Kateřina · Matúš · Hluboká<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz · 0123456789</p></div><div class="type-notes"><span class="eyebrow">In use</span><h3>You met at<br>the hackathon.</h3><p>Viktor is a skater from Hluboká. Last time, you talked about building things and finding a good place to skate.</p><span class="small-label">A DETAIL WORTH REMEMBERING</span><p class="hint">Body 16px / 400 · Labels 12px / 600<br>Headings 40px / 700</p></div></div>
+      </section>
+
+      <section class="section" id="application">
+        <div class="section-heading"><div><div class="eyebrow">04 / In context</div><h2>Pick up where you left off.</h2></div><p>A contact card and a sharing card.<br>Examples for the demo and pitch.</p></div>
+        <div class="application-grid"><div class="contact-stage"><article class="contact-card"><div class="contact-top"><span class="avatar">V</span><span class="demo-label">Demo contact</span></div><h3>Viktor</h3><p class="contact-meta">Met at the hackathon</p><div class="tags"><span>Skateboarding</span><span>Hluboká</span><span>AI at FLO</span></div><div class="remember"><span class="small-label">PICK IT BACK UP</span><p>“Found any good places<br>to skate lately?”</p></div><div class="sample-action">View shared memories <span>↗</span></div></article></div><div class="share-preview"><img src="social/social-card.png" alt="Déjà Vu social card: You've met before. Now you'll remember." loading="lazy" width="1200" height="630"><div class="asset-caption"><span>Social / 1200 × 630</span><a href="social/social-card.png" download>Download PNG ↓</a></div></div></div>
+      </section>
+
+      <section class="section rules" id="usage"><div><div class="eyebrow">05 / Keep it consistent</div><h2>A few simple rules.</h2></div><ol><li><b>Give it room.</b><span>Clear space: at least one quarter of the symbol's height around the artwork.</span></li><li><b>Keep it readable.</b><span>Full logo: 160px minimum width. Symbol: 24px minimum in general UI.</span></li><li><b>Keep the accents.</b><span>Always write Déjà Vu, with both accents. Use the supplied wordmark.</span></li><li><b>Let the shape work.</b><span>Preserve proportions. Keep the artwork flat and the background quiet.</span></li></ol></section>
+    </div>
+  </main>
+  <footer class="wrap"><span>Déjà Vu <span class="footer-divider">/</span> Brand library 1.0</span><div><a href="tokens.json" download>JSON tokens ↓</a><a href="tokens.css" download>CSS tokens ↓</a><a href="https://dejavu.blue">dejavu.blue ↗</a><a href="https://luma.com/cursor-mljb">Cursor Hackathon Prague ↗</a></div></footer>
+  <script src="guide.js"></script>
+</body>
+</html>
