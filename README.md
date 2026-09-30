@@ -51,7 +51,15 @@ The site uses Cloudflare Pages Direct Upload. Upload `dist/` through the dashboa
 
 ## Set up your own Déjà Vu
 
-Setup guides are coming to this repository. The landing page links here so visitors can find them when they are added.
+The intended setup is agent-led: give your agent this repository URL and have it follow the Markdown guides. You should not need to write code to get started.
+
+**Setup guides are coming soon.** Katka will add them in a pull request. We'll review the instructions and try them from scratch before marking setup ready.
+
+When the guides are ready, tell your agent:
+
+> Read https://github.com/matuspavliscak/dejavu and help me set up my own Déjà Vu. Follow the setup guides, tell me what accounts or devices I need, and verify that it works. Report any missing instruction or failed step.
+
+The commands in the Landing page section maintain the website. Personal Déjà Vu setup will have its own guide.
 
 ## Status
 
