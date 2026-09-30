@@ -4,8 +4,8 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "dev": "npm run build && wrangler dev",
-    "deploy": "npm run build && wrangler deploy"
+    "dev": "npm run build && wrangler pages dev dist",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name=dejavu-blue --branch=main"
   },
   "devDependencies": {
     "wrangler": "4.145.0"

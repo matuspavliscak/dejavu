@@ -710,6 +710,40 @@ h3 {
   bottom: 17px;
   right: 30px;
 }
+.setup-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding-block: 55px;
+  border-top: 1px solid var(--line);
+}
+.setup-section .eyebrow {
+  color: var(--blue);
+  margin-bottom: 15px;
+}
+.setup-section h2 {
+  font-size: 42px;
+}
+.setup-section p:not(.eyebrow) {
+  max-width: 490px;
+  margin-top: 18px;
+  font-size: 14px;
+  color: var(--muted);
+}
+.setup-section .button {
+  flex-shrink: 0;
+}
+@media (max-width: 760px) {
+  .setup-section {
+    align-items: flex-start;
+    flex-direction: column;
+    padding-block: 45px;
+  }
+  .setup-section h2 {
+    font-size: 35px;
+  }
+}
 .team-section {
   padding-block: 70px 85px;
   border-top: 1px solid var(--line);

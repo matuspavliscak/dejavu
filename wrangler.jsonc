@@ -2,6 +2,5 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "dejavu-blue",
   "compatibility_date": "2026-09-30",
-  "assets": { "directory": "./dist" },
-  "routes": [{ "pattern": "dejavu.blue", "custom_domain": true }],
+  "pages_build_output_dir": "./dist",
 }
