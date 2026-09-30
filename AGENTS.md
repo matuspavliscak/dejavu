@@ -1,6 +1,6 @@
 # Déjà Vu
 
-Read `README.md` first.
+Read `README.md` first. Notion is the personal CRM interface; this repository hosts the landing page and the planned agent setup guides.
 
 ## Helping someone set up Déjà Vu
 

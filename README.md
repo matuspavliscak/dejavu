@@ -6,7 +6,7 @@
 
 <p align="center"><a href="https://dejavu.blue">dejavu.blue</a></p>
 
-Déjà Vu is a personal CRM for the people you meet at hackathons, conferences, and parties. We're building it to turn conversations into memories you can find again, with help from Meta smart glasses.
+Déjà Vu is a personal CRM for the people you meet at hackathons, conferences, and parties. Notion is the interface for your contacts and connections. Your agent helps set it up from Markdown guides. We're exploring Meta smart glasses to capture conversations and bring back context when you meet again.
 
 Built at [Cursor Hackathon Prague: Forge the Stack](https://luma.com/cursor-mljb).
 
