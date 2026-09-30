@@ -10,6 +10,10 @@ Déjà Vu is a personal CRM for the people you meet at hackathons, conferences, 
 
 Built at [Cursor Hackathon Prague: Forge the Stack](https://luma.com/cursor-mljb).
 
+## Current demo
+
+Pocket records a conversation. The agent adds the new details as a dated entry on the person's existing Notion page, preserving earlier meeting notes. The demo shows the contact table, a person's page, and the new entry after a recording.
+
 ## The idea
 
 You meet someone interesting. A few months later, you remember the conversation but not their name. Your phone has a contact called “Martin conference ???”.

@@ -4,7 +4,7 @@ Read `README.md` first. Notion is the personal CRM interface; this repository ho
 
 ## Helping someone set up Déjà Vu
 
-The product is intended to be set up by an agent following Markdown guides, without the user writing code. The setup guides are not available yet. Do not treat the landing page's build or deployment commands as product setup instructions.
+The product is intended to be set up by an agent following Markdown guides, without the user writing code. Check the setup status in `README.md` and use the reviewed Markdown guides when they are available. Do not treat the landing page's build or deployment commands as product setup instructions.
 
 When guides are added, follow them, identify prerequisites, and verify the documented outcome. Report missing instructions or failed steps. Do not invent an installation process or claim setup works without trying it.
 
