@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
+  <title id="title">Déjà Vu flow</title>
+  <desc id="desc">Meta glasses, Pocket and WhatsApp feed Grok Bot. Grok Bot updates Notion. Notion optionally sends context back to Meta glasses.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1 L8 5 L1 9" fill="none" stroke="#245fea" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  </defs>
+  <rect width="1280" height="520" fill="#fff"/>
+  <g fill="#636c75" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">
+    <text x="50" y="44">CAPTURE</text>
+    <text x="420" y="44">PROCESS</text>
+    <text x="735" y="44">REMEMBER</text>
+    <text x="1025" y="44">RECALL</text>
+  </g>
+  <g stroke="#245fea" stroke-width="2.5" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M270 140 H324 Q340 140 340 156 V244 Q340 260 356 260 H402" marker-end="url(#arrow)"/>
+    <path d="M270 260 H402" marker-end="url(#arrow)"/>
+    <path d="M270 380 H324 Q340 380 340 364 V276 Q340 260 356 260"/>
+    <path d="M640 260 H717" marker-end="url(#arrow)"/>
+    <path d="M955 260 H1007" stroke-dasharray="7 7" marker-end="url(#arrow)"/>
+  </g>
+  <g stroke="#dce6fe" stroke-width="1.5" fill="#f3f7ff">
+    <rect x="50" y="94" width="220" height="92" rx="16"/>
+    <rect x="50" y="214" width="220" height="92" rx="16"/>
+    <rect x="50" y="334" width="220" height="92" rx="16"/>
+    <rect x="735" y="214" width="220" height="92" rx="16"/>
+  </g>
+  <rect x="420" y="214" width="220" height="92" rx="16" fill="#245fea"/>
+  <rect x="1025" y="214" width="220" height="92" rx="16" fill="#fff" stroke="#a9c4ff" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <g fill="#1c2225" font-family="Arial, sans-serif" font-size="25" font-weight="700" text-anchor="middle">
+    <text x="160" y="149">Meta glasses</text>
+    <text x="160" y="269">Pocket</text>
+    <text x="160" y="389">WhatsApp</text>
+    <text x="530" y="269" fill="#fff">Grok Bot</text>
+    <text x="845" y="269">Notion</text>
+    <text x="1135" y="269">Meta glasses</text>
+  </g>
+  <g fill="#636c75" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">
+    <text x="530" y="342">Find the new details</text>
+    <text x="845" y="342">Your personal CRM</text>
+    <text x="1135" y="342">Optional</text>
+  </g>
+  <text x="50" y="490" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#245fea">dejavu.blue</text>
+</svg>

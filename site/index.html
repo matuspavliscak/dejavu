@@ -80,9 +80,16 @@
             context for the people you meet in Notion, with your agent helping
             you remember and reconnect.
           </p>
-          <a class="button" href="#how-it-works"
-            >See how it works <span aria-hidden="true">↗</span></a
-          >
+          <div class="join-demo">
+            <a class="qr-link" href="https://dejavu.blue/" aria-label="Open dejavu.blue">
+              <img src="/dejavu-qr.svg" alt="Scan to open https://dejavu.blue/" width="148" height="148" />
+            </a>
+            <div class="join-copy">
+              <p class="join-label">Open on your phone</p>
+              <a class="join-domain" href="https://dejavu.blue/">dejavu.blue <span aria-hidden="true">↗</span></a>
+              <a class="setup-link" href="https://github.com/matuspavliscak/dejavu/blob/main/docs/grok-bot.md" target="_blank" rel="noopener noreferrer">Get the setup guide <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
           <p class="small-note">Our demo: Pocket → your agent → Notion.</p>
         </div>
 
@@ -146,6 +153,15 @@
           </div>
           <p class="scene-caption">A GLIMPSE OF WHAT WE'RE BUILDING</p>
         </div>
+      </section>
+
+      <section class="flow-section wrap" aria-labelledby="flow-title">
+        <p class="eyebrow">The flow we're building</p>
+        <h2 id="flow-title">From a conversation to a memory.</h2>
+        <div class="flow-scroll" tabindex="0" role="region" aria-label="Déjà Vu flowchart, scroll horizontally on small screens">
+          <img src="/dejavu-flow.svg" alt="Meta glasses, Pocket and WhatsApp feed into Grok Bot. Grok Bot updates Notion. Notion can optionally return context to Meta glasses." width="1280" height="520" loading="lazy" />
+        </div>
+        <a class="setup-link" href="/dejavu-flow.svg" target="_blank" rel="noopener noreferrer">Open flowchart <span aria-hidden="true">↗</span></a>
       </section>
 
       <section class="problem wrap" aria-labelledby="problem-title">
