@@ -1,0 +1,16 @@
+{
+  "name": "dejavu-landing",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "npm run build && wrangler dev",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "4.145.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
