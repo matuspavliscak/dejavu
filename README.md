@@ -6,9 +6,25 @@
 
 <p align="center"><a href="https://dejavu.blue">dejavu.blue</a></p>
 
-Déjà Vu is a personal CRM for the people you meet at hackathons, conferences, and parties. We're building it to turn conversations into memories you can find again, with help from Meta smart glasses.
+Déjà Vu is a personal CRM for the people you meet at hackathons, conferences, and parties. Notion is the interface for your contacts and connections. Your agent helps set it up from Markdown guides. We're exploring Meta smart glasses to capture conversations and bring back context when you meet again.
 
 Built at [Cursor Hackathon Prague: Forge the Stack](https://luma.com/cursor-mljb).
+
+## Start here: set up your own Déjà Vu
+
+**[Read the setup guide](docs/grok-bot.md).** It covers Pocket recordings, the Notion CRM, and the bot instructions.
+
+Give your agent this prompt:
+
+> Read https://github.com/matuspavliscak/dejavu, then follow the setup guide linked in the README. Help me connect Pocket and Notion and set up my personal CRM. Ask for any missing access or configuration. Process one recording and verify that a dated entry appears on the right person's Notion page without removing earlier notes.
+
+You need the bot described in the guide, a Notion CRM database, Pocket recordings, and the Notion and Pocket connectors. The intended flow does not require you to write code. Start with one recording before enabling the optional recurring checks.
+
+Agents: begin with [AGENTS.md](AGENTS.md), then follow [docs/grok-bot.md](docs/grok-bot.md). Website development commands are in [Landing page](#landing-page).
+
+## Current demo
+
+Pocket records a conversation. The agent adds the new details as a dated entry on the person's existing Notion page, preserving earlier meeting notes. The demo shows the contact table, a person's page, and the new entry after a recording.
 
 ## The idea
 
@@ -48,10 +64,6 @@ The site lives in `site/`. Run `npm ci` and `npm run dev` to preview it locally.
 `npm run build` produces `dist/` with the page and its bundled brand assets. `npm run deploy` builds and publishes it to the production Cloudflare Pages project `dejavu-blue`. Authenticate with `npx wrangler login` first.
 
 The site uses Cloudflare Pages Direct Upload. Upload `dist/` through the dashboard or run the deploy command above. The custom domain [dejavu.blue](https://dejavu.blue) is managed in the project's Custom domains settings. Pull requests do not deploy automatically.
-
-## Set up your own Déjà Vu
-
-Setup guides are coming to this repository. The landing page links here so visitors can find them when they are added.
 
 ## Status
 
